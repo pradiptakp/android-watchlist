@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/my_card"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp">
+
+    <ImageView
+        android:contentDescription="@string/judul"
+        android:id="@+id/img_photo"
+        android:layout_width="80dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/img_card"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/title_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/img_photo"
+        android:layout_toStartOf="@id/txt_rating"
+        >
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/judul"
+            android:maxLines="2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#2d374f"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_container"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/img_photo"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="13sp"
+        android:textColor="#6f799d"
+        android:text="@string/tglRilis" />
+
+    <TextView
+        android:id="@+id/txt_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_date"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_toEndOf="@id/img_photo"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="@string/deskripsi"
+        android:textColor="#2d374f" />
+
+    <TextView
+        android:id="@+id/txt_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="8dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:textSize="18sp"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/colorIcons"
+        android:textStyle="bold"
+        android:text="@string/rating"
+        android:background="@drawable/circle_shape"
+        android:layout_marginStart="10dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Watchlist</string>
+    <string name="judul">Judul</string>
+    <string name="tglRilis">Tanggal Rilis</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="rating">8.0</string>
+    <string name="poster">Poster</string>
+    <string name="back_button">back button</string>
+    <string name="tambahkan_ke_watchlist">Tambahkan ke Watchlist</string>
+    <string name="movies">Film</string>
+    <string name="tv_series">Serial TV</string>
+    <string name="watchlist">Watchlist</string>
+    <string name="profile">Profil</string>
+    <string name="change_language_settings">Ubah Bahasa</string>
+
+    <string-array name="data_title">
+        <item>A Star is Born</item>
+        <item>Aquaman</item>
+        <item>Avengers: Infinity War</item>
+        <item>Bird Box</item>
+        <item>Bohemian Rhapsody</item>
+        <item>Bumblebee</item>
+        <item>Creed II</item>
+        <item>Once Upon a Deadpool</item>
+        <item>How to Train Your Dragon: The Hidden World</item>
+        <item>Dragonball Super: Broly</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Seorang bintang musik country yang karirnya mulai memudar, Jackson Maine (Bradley Cooper) menemukan sebuah talenta yang sangat berbakat di dalam diri dari seorang musisi muda bernama Ally (Lady Gaga). Maine berhasil mengorbitkan Ally menjadi seorang bintang muda yang menjanjikan. Namun keduanya terlibat hubungan yang lebih jauh dari sekedar mentor dan anak didik. Seiring dengan meroketnya karir dari Ally dan dirinya, Maine mengalami dilema mengenai masalah ini.</item>
+        <item>Atlantis yang pernah menjadi tempat dimana peradaban paling maju di Bumi berada, kini dikuasai oleh seorang raja yang serakah yaitu Raja Orm. Dengan pasukan yang besar, Orm berencana untuk menguasai seluruh lautan hingga daratan. Arthur Curry, saudara Orm yang merupakan setengah manusia, setengah Atlantean, dan penerus asli tahta kerajaan, berusaha menghentikan Orm.</item>
+        <item>Terdampar di luar angkasa tanpa persediaan makanan dan minuman, Tony Stark berusaha mengirim pesan untuk Pepper Potts dimana persediaan oksigen mulai menipis. Sementara itu para Avengers yang tersisa harus menemukan cara untuk mengembalikan 50% mahluk di seluruh dunia yang telah dilenyapkan oleh Thanos.</item>
+        <item>Lima tahun setelah makhluk asing yang tidak terlihat membuat sebagian besar manusia bunuh diri, seorang wanita serta kedua anaknya mencari jalan untuk mencapai tempat aman.</item>
+        <item>Penyanyi Freddie Mercury, gitaris Brian May, drummer Roger Taylor, dan pemain bass John Deacon menguasai dunia permusikan ketika mereka membuat band rock n roll Queen pada 1970. Ketika gaya hidup Mercury mulai hilang kendali, Queen menghadapi tantangan terbesarnya - menemukan cara untuk mempertahankan bandnya.</item>
+        <item>Dalam pelarian pada tahun 1987, Bumblebee mengungsi ke tempat pembuangan sampah di kota kecil di California. Charlie yang baru berulang tahun ke 18, menemukan Bumblebee dengan keadaan rusak. Ketika Charlie memperbaikinya, dia mengetahui Bumblebee bukanlah mobil VW biasa.</item>
+        <item>Diantara tantangan pribadi dan latihan menghadapi pertarungan besar selanjutnya melawan musuh yang mempunyai ikatan dengan sejarah keluarganya, Adonis Creed menghadapi tantangan terbesar dalam hidupnya.</item>
+        <item>Fred Savage yang diculik dipaksa untuk melihat film Deadpool 2 versi PG-13 dengan cerita seperti Princess Bride yang penuh keajaiban, serta nol umpatan.</item>
+        <item>Ketika Hiccup memenuhi mimpinya untuk menciptakan utopia naga yang damai, penemuan Toothless \'dari pasangan yang tak teruji dan sukar ditangkap membuat Night Fury menjauh. Ketika bahaya meningkat di rumah dan pemerintahan Hiccup sebagai kepala desa diuji, baik naga dan pengendara harus membuat keputusan yang mustahil untuk menyelamatkan jenis mereka.</item>
+        <item>Dunia damai setelah Turnamen Kekuatan. Tersadar bahwa masih terdapat orang-orang kuat yang belum ditemuinya, Goku menghabiskan waktu untuk berlatih demi mencapai kekuatan yang lebih tinggi. Hingga suatu hari Goku dan Vegeta bertemu Saiyan bernama \'Broly\' yang seharusnya sudah punah.</item>
+    </string-array>
+
+    <array name="data_photo">
+        <item>@drawable/poster_a_star</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_birdbox</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_deadpool</item>
+        <item>@drawable/poster_dragon</item>
+        <item>@drawable/poster_dragonball</item>
+    </array>
+
+    <string-array name="data_rating">
+        <item>7.5</item>
+        <item>6.8</item>
+        <item>8.3</item>
+        <item>7.0</item>
+        <item>8.0</item>
+        <item>6.5</item>
+        <item>6.7</item>
+        <item>6.9</item>
+        <item>7.7</item>
+        <item>7.5</item>
+    </string-array>
+
+    <string-array name="data_tahun">
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+    </string-array>
+
+    <string-array name="series_title">
+        <item>The Mandalorian</item>
+        <item>Breaking Bad </item>
+        <item>The Boys</item>
+        <item>Stranger Things</item>
+        <item>Bodyguard</item>
+        <item>Marvel\s The Punisher</item>
+        <item>Marvel\s Daredevil</item>
+        <item>Sex Education</item>
+        <item>Game of Thrones</item>
+        <item>Brooklyn Nine-Nine</item>
+    </string-array>
+
+    <string-array name="series_description">
+        <item>Berlatar setelah hancurnya Empire dan sebelum First Order, kita mengikuti petualangan seorang pemburu di bagian galaksi yang jauh dari otoritas New Republic.</item>
+        <item>Ketika Walter White, seorang guru kimia New Mexico, didiagnosis dengan kanker stadium III dan diberi prognosis hanya dua tahun lagi untuk hidup. Dia dipenuhi dengan rasa tidak takut dan keinginan yang tak henti-hentinya untuk mengamankan masa depan keuangan keluarganya dengan biaya berapa pun ketika dia memasuki dunia narkoba dan kejahatan yang berbahaya.</item>
+        <item>Sekelompok penjaga yang dikenal secara informal sebagai "The Boys" berangkat untuk menjatuhkan superhero yang korup dengan tidak lebih dari grit kerah biru dan kesediaan untuk melawan yang kotor.</item>
+        <item>Ketika seorang bocah lelaki menghilang, sebuah kota kecil mengungkap misteri yang melibatkan eksperimen rahasia, kekuatan gaib yang menakutkan, dan seorang gadis kecil yang aneh.</item>
+        <item>Veteran perang yang bermasalah ditugaskan untuk melindungi politisi kontroversial yang menjadi target teror.</item>
+        <item>Bekas marinir mencari kriminal yang bertanggung jawab atas pembunuhan keluarganya menemukan dirinya berada didalam konspirasi militer.</item>
+        <item>Pengacara Matt Murdock menggunakan inderanya yang menjadi kuat setelah insiden masa kecilnya, memberantas kejahatan di malam hari di Hell\'s Kitchen sebagai Daredevil.</item>
+        <item>Otis yang tidak berpengalaman meniru Ibunya yang seorang terapis seks ketika dia bersama Maeve membuka klinik seks secara diam-diam di sekolahnya.</item>
+        <item>Tujuh keluarga bangsawan berjuang untuk menguasai tanah mitos Westeros. Gesekan antara rumah-rumah mengarah ke perang skala penuh. Semua sementara kejahatan yang sangat kuno terbangun di utara terjauh. Di tengah-tengah perang, perintah militer yang diabaikan, Night\'s Watch, adalah yang berdiri di antara alam manusia dan kengerian es di luarnya.</item>
+        <item>Komedi yang mengikuti kehidupan eksentrik dari sekelompok detektif di sebuah kantor polisi di New York, termasuk satu orang yang kekanak-kanakan untuk bersikap dewasa ketika mereka mendapat Bos baru.</item>
+    </string-array>
+
+    <array name="series_photo">
+        <item>@drawable/poster_mandalorian</item>
+        <item>@drawable/poster_breaking_bad</item>
+        <item>@drawable/poster_the_boys</item>
+        <item>@drawable/poster_stranger_things</item>
+        <item>@drawable/poster_bodyguard</item>
+        <item>@drawable/poster_punisher</item>
+        <item>@drawable/poster_daredevil</item>
+        <item>@drawable/poster_sex_education</item>
+        <item>@drawable/poster_game_of_thrones</item>
+        <item>@drawable/poster_brooklyn_99</item>
+    </array>
+
+    <string-array name="series_rating">
+        <item>7.6</item>
+        <item>8.5</item>
+        <item>8.1</item>
+        <item>8.3</item>
+        <item>8.1</item>
+        <item>8.0</item>
+        <item>7.8</item>
+        <item>8.0</item>
+        <item>8.1</item>
+        <item>7.7</item>
+    </string-array>
+
+    <string-array name="series_tahun">
+        <item>2019 – sekarang</item>
+        <item>2008 – 2012</item>
+        <item>2019 – sekarang</item>
+        <item>2016 – sekarang</item>
+        <item>2018</item>
+        <item>2017 – 2019</item>
+        <item>2015 – 2018</item>
+        <item>2019 – sekarang</item>
+        <item>2011 – 2019</item>
+        <item>2013 – sekarang</item>
+    </string-array>
+
+
+</resources>
